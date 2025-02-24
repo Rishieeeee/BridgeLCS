@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Generate OCR InvoiceAutomatically gener_6cd655</name>
+   <tag></tag>
+   <elementGuidId>e6f248ca-c7dc-4909-bb4d-0d4e0f78ec0c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//body[@id='body']/div[7]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.ttour-shadow</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>div >> internal:has-text=&quot;Generate OCR InvoiceAutomatically generate invoices with cutting-edge cloud-base&quot;i >> nth=0</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>27325927-5ccb-4476-b688-a0e611a2863a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ttour-shadow</value>
+      <webElementGuid>a1934dae-e08c-443b-b8b5-ff0c77a36a0e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Generate OCR InvoiceAutomatically generate invoices with cutting-edge cloud-based OCR technology.Done</value>
+      <webElementGuid>569389d6-0f84-4f35-9feb-b030c0800549</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;body&quot;)/div[@class=&quot;ttour-shadow&quot;]</value>
+      <webElementGuid>e98d2129-ffe6-4cca-bb70-82ce1d8b78bf</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//body[@id='body']/div[7]</value>
+      <webElementGuid>412277af-7c18-4e35-91f3-9882b4b9d62d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Audio message'])[1]/following::div[1]</value>
+      <webElementGuid>77d26032-f87f-477d-bb26-27bfdfb8dacf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Send a file'])[2]/following::div[1]</value>
+      <webElementGuid>594ae925-3ee0-4409-872d-bfb6bd1c0d9e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[7]</value>
+      <webElementGuid>8ae1d7f8-9e84-4649-8f2f-c409a6b520c0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Generate OCR InvoiceAutomatically generate invoices with cutting-edge cloud-based OCR technology.Done' or . = 'Generate OCR InvoiceAutomatically generate invoices with cutting-edge cloud-based OCR technology.Done')]</value>
+      <webElementGuid>a53e971d-c01e-427c-b753-33652c52e3a4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

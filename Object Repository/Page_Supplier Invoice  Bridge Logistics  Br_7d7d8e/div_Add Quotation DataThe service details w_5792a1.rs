@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Add Quotation DataThe service details w_5792a1</name>
+   <tag></tag>
+   <elementGuidId>7315909d-5752-447c-88ae-282645887b8d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//body[@id='body']/div[8]/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.ttour-wrapper</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>div >> internal:has-text=&quot;Add Quotation DataThe service details which you have given for that particular j&quot;i >> nth=2</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>a32416f4-242f-416d-99c0-34795b57d005</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ttour-wrapper</value>
+      <webElementGuid>6156721f-6845-45ce-bddb-19ebc27cb9f7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Add Quotation DataThe service details which you have given for that particular job's quotation will be listed as a template in the supplier invoice.Done</value>
+      <webElementGuid>c8c8ec79-ba9f-4aae-871b-f463f39f67f2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;body&quot;)/div[@class=&quot;ttour-shadow&quot;]/div[@class=&quot;ttour-overlay&quot;]/div[@class=&quot;ttour-wrapper&quot;]</value>
+      <webElementGuid>664430ef-b71a-4d64-9b51-37d0cfd7f4e4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//body[@id='body']/div[8]/div/div</value>
+      <webElementGuid>0db169c6-55c2-4b5f-81c0-5de6793846da</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Save'])[1]/following::div[4]</value>
+      <webElementGuid>d5dfd623-745a-4714-b8f8-90d587e8fa24</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Clear'])[1]/following::div[4]</value>
+      <webElementGuid>3aa6c372-0783-468f-bcc7-60544d7c991e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[8]/div/div</value>
+      <webElementGuid>b9c3bc20-7730-4578-a4b5-b6719845026b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = concat(&quot;Add Quotation DataThe service details which you have given for that particular job&quot; , &quot;'&quot; , &quot;s quotation will be listed as a template in the supplier invoice.Done&quot;) or . = concat(&quot;Add Quotation DataThe service details which you have given for that particular job&quot; , &quot;'&quot; , &quot;s quotation will be listed as a template in the supplier invoice.Done&quot;))]</value>
+      <webElementGuid>7b05ffa0-1183-41d5-869e-a0e626b762d4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

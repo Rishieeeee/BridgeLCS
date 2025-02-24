@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_0-- TestOther purchases (Non VAT Servic_f1468b</name>
+   <tag></tag>
+   <elementGuidId>449ec2ae-0847-4776-be61-5183a0bf8320</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='bs-select-6-0']/span/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.text > div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=option[name=&quot;0% -- Test Other purchases (Non VAT Services of Standard Domestic Purchase)&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>e32025a5-35ed-4cb2-b676-191eb5294ed8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>0%-- TestOther purchases (Non VAT Services of Standard Domestic Purchase)</value>
+      <webElementGuid>dee00e87-92f3-4b92-99cb-e848b2d92be4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;bs-select-6-0&quot;)/span[@class=&quot;text&quot;]/div[1]</value>
+      <webElementGuid>7ea7d39c-8336-40e7-8cb2-8bf9e0c77b47</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//a[@id='bs-select-6-0']/span/div</value>
+      <webElementGuid>1cf63766-4fb4-4207-93a3-d59544e98c0e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Save'])[1]/following::div[6]</value>
+      <webElementGuid>0e059db1-8539-42a3-b74d-09c08c9c786b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Clear'])[1]/following::div[6]</value>
+      <webElementGuid>439a1d1c-4516-4fcf-8434-825e0ab15eb3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span/div</value>
+      <webElementGuid>778c55a1-3f78-4e09-8e39-e54eddd84613</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '0%-- TestOther purchases (Non VAT Services of Standard Domestic Purchase)' or . = '0%-- TestOther purchases (Non VAT Services of Standard Domestic Purchase)')]</value>
+      <webElementGuid>7569235f-748d-47e2-8928-5a96bcb9ccd4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
