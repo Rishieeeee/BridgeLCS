@@ -59,7 +59,7 @@ for (int i = 1; i <= numberOfCustomers; i++) {
 	WebUI.click(findTestObject('Object Repository/Page_Customers  Bridge Logistics  Bridge LCS/button_Save'))
 	WebUI.waitForPageLoad(2)
 
-	println("✅ Customer Created: " + randomName)
+	println(":white_check_mark: Customer Created: " + randomName)
 }
 
 // Close browser after completion
