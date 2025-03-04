@@ -9,7 +9,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
 import java.util.Random;
 
-public class customer {
+public class supplier {
     public static void main(String[] args) throws InterruptedException {
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();  // Maximize browser window
@@ -18,7 +18,7 @@ public class customer {
         JavascriptExecutor js = (JavascriptExecutor) driver;
 
         // Open login page
-        driver.get("https://demo.lcsbridge.com/customer/list");
+        driver.get("https://demo.lcsbridge.com/supplier/list");
 
         // Login process
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.name("email"))).sendKeys("rishikesh1@glaubetech.com");
@@ -26,16 +26,16 @@ public class customer {
         WebElement loginButton = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[normalize-space()='Login']")));
         js.executeScript("arguments[0].click();", loginButton);
 
-        int customerCount = 5;  // Number of customers to create
+        int supplierCount = 5;  // Number of suppliers to create
 
-        for (int i = 1; i <= customerCount; i++) {
+        for (int i = 1; i <= supplierCount; i++) {
             System.out.println("Creating Customer " + i + "...");
 
-            // Click "New Customer" button
-            WebElement newCustomer = wait.until(ExpectedConditions.elementToBeClickable(By.id("new")));
-            js.executeScript("arguments[0].click();", newCustomer);
+            // Click "New Supplier" button
+            WebElement newSupplier = wait.until(ExpectedConditions.elementToBeClickable(By.id("new")));
+            js.executeScript("arguments[0].click();", newSupplier);
 
-            // Enter Customer Name
+            // Enter Supplier Name
             WebElement nameField = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("name")));
             String randomName = "Rishi" + new Random().nextInt(10000);
             nameField.sendKeys(randomName);
@@ -58,7 +58,7 @@ public class customer {
             Thread.sleep(1000);
 
          // Click the country dropdown
-            WebElement country = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"contact\"]/div[2]/div[6]/div/div/button")));
+            WebElement country = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"contact\"]/div/div[9]/div/div/button")));
             js.executeScript("arguments[0].click();", country);
 
             // Select the first country option dynamically
@@ -76,23 +76,14 @@ public class customer {
             emailId.sendKeys(randomMail);
             System.out.println("Generated Email: " + randomMail);
 
-            // Click Sales Tab
-            WebElement salesTab = wait.until(ExpectedConditions.elementToBeClickable(By.id("base-tab4")));
-            js.executeScript("arguments[0].click();", salesTab);
 
-         // Click the salesman dropdown
-            WebElement salesman = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id='sales-row']/div[1]/div/div/button")));
-            js.executeScript("arguments[0].click();", salesman);
-
-            // Select the first available salesman option dynamically
-            WebElement salesmanSelect = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//ul[contains(@class,'dropdown-menu')]//a")));
-            js.executeScript("arguments[0].click();", salesmanSelect);
 
 
             // Click Save Button
             WebElement saveButton = wait.until(ExpectedConditions.elementToBeClickable(By.id("submit")));
             saveButton.click();
-            System.out.println("Customer " + i + " created successfully!");
+            System.out.println("Supplier " + i + " created successfully!");
+            Thread.sleep(1000);
             
             
 	
@@ -101,7 +92,10 @@ public class customer {
         }
 
         // Close browser
-        System.out.println("All customers created successfully!");
+        System.out.println("All suppliers created successfully!");
         driver.quit();
     }
-}
+
+	}
+
+
